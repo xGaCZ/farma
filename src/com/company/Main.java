@@ -2,7 +2,7 @@ package com.company;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
-public class Main {
+public class Main extends gracz{
 
     public static void main(String[] args) throws InterruptedException, IOException {
         Scanner scan = new Scanner(System.in);
@@ -19,6 +19,6 @@ public class Main {
         System.in.read();
 
         System.out.println("Dziś mamy: " + tydzien + " Tydzień " + rok + " Roku.");
-       Scanner in = new Scanner(System.in);
+
+        }
     }
-}
