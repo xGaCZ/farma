@@ -9,10 +9,6 @@ package com.company;
             this.cena = cena;}
 
 
-    public String toString() {
-        return " Nazwa: " + this.nazwa + " Cena: " + this.cena;
-    }
-
     String[] buildings = new String[] {
             "POle",
             "stodoła",};

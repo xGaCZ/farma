@@ -19,6 +19,5 @@ public class Main extends gracz{
         System.in.read();
 
         System.out.println("Dziś mamy: " + tydzien + " Tydzień " + rok + " Roku.");
-
         }
     }
